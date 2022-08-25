@@ -1,0 +1,73 @@
+/* Important Colours Used:
+Lilac: #d7d5ed*/
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+
+/* Header section */
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  z-index: 99;
+  position: relative;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+  padding: 0.5% 2%;
+}
+
+.intro-content {
+  color: white;
+  padding: 20% 0;
+  background-image: url(../images/background-image.jpeg);
+  background-size: cover;
+  text-align: center;
+}
+
+.intro-content h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+}
+
+.intro-portrait{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.intro-text{
+  font-size: 1.3rem;
+  line-height: 2;
+  position: relative;
+  text-shadow: 2px 2px 4px #000000;
+  top: 2rem;
+}
+
+
+/* Main section */
+main {
+  padding: 10% 0;
+  background-color: #e4f0eb;
+}
