@@ -42,9 +42,10 @@ h1, h2, h3 {
 
 .intro-content {
   color: white;
-  padding: 20% 0;
+  padding: 5% 0 10%;
   background-image: url(../images/background-image.jpeg);
   background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
@@ -69,8 +70,8 @@ h1, h2, h3 {
 
 /* Main section */
 main {
-  padding: 10% 0;
-  background-color: #e4f0eb;
+  padding: 5% 10%;
+  background-color: #fff;
 }
 
 .grid-title {
@@ -81,11 +82,32 @@ main {
 .grid-about {
   grid-area: about;
   padding: 4% 15%;
+  line-height: 2;
 }
 
 .grid-container {
   display: grid;
   grid-gap: 0;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 2fr;
   grid-template-areas: "title about";
+}
+
+.see-more {
+  color: #aaa;
+  text-decoration: none;
+  position: relative;
+}
+
+.see-more:hover {
+  font-size: 1.2rem;
+  color: #a377a7;
+}
+
+.languages {
+  color: #dd6666;
+  font-weight: 500;
+}
+
+.project-example-img {
+  width: 49%;
 }
