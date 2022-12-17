@@ -1,0 +1,10 @@
+.project-container {
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+    color: black;
+}
+
+.intro-content {
+    padding: 1px;
+}

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hannah Carino</title>
 
     <!-- Google fonts -->
@@ -9,11 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&family=Sacramento&display=swap" rel="stylesheet">
 
-    <!-- My stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/0f71cd6149.js" crossorigin="anonymous"></script>
+
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 
   </head>
   <body>
@@ -25,12 +26,13 @@
         <!-- <img class="logo" src="images/self-drawing.jpg" alt=""> -->
         <h2 class="logo">ZEROSICX</h2>
 
-        <ul>
+        <ul class="nav-list">
           <li class="nav-item"><a href="#">About Me</a></li>
-          <li class="nav-item"><a href="#">Projects</a></li>
+          <li class="nav-item"><a href="pages/projects.html">Projects</a></li>
           <li class="nav-item"><a href="#">Course Status</a></li>
           <li class="nav-item"><a href="#">Contact</a></li>
         </ul>
+        <i class="fa-solid fa-bars hamburger"></i>
       </nav>
 
       <div class="intro-content">
@@ -50,18 +52,18 @@
 
     <!-- Main content section. -->
     <!-- Use grids to show these side-by-side -->
-    <main class="grid-container main-about">
+    <main class="flex-container main-about">
 
-      <div class="grid-title">
+      <div class="flex-box flex-title">
         <h1>About Me</h1>
-        <a class="see-more" href="#">See my CV...</a>
+        <a class="see-more" href="files/CV2022.pdf" download="CV2022.pdf">See my CV...</a>
 
       </div>
 
-      <div class="grid-about">
+      <div class="flex-box flex-details">
         <ul>
           <li>Second year of Software Engineering at Unviersity of Waikato</li>
-          <li>Strong team and task/goal organisation skills. Proficient at academic writing.</li>
+          <li>Strong team and project management skills. Proficient in academic writing.</li>
           <li>Experience in <span class="languages">HTML, CSS, JavaScript, C, C#, SQL, Python, MatLab, Java</span></li>
           <li>Freelance Illustrator</li>
         </ul>
@@ -70,14 +72,14 @@
 
     </main>
 
-    <main class="grid-container main-projects">
-      <div class="grid-title">
+    <main class="flex-container main-projects">
+      <div class="flex-box flex-title">
         <h1>Projects</h1>
-        <a class="see-more" href="#">See more projects...</a>
+        <a class="see-more" href="pages/projects.html">See more projects...</a>
 
       </div>
 
-      <div class="grid-about">
+      <div class="flex-box flex-details">
         <p><u>Most Recent</u></p>
         <p>Tasked to make a responsive android app about the Computing and Mathematical Sciences
           Department at the University of Waikato</p>

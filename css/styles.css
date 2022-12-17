@@ -34,6 +34,12 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
+.hamburger {
+  display: none;
+  padding: 3%;
+  font-size: 1.4rem;
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -70,26 +76,28 @@ h1, h2, h3 {
 
 /* Main section */
 main {
-  padding: 5% 10%;
+  padding: 5% 12%;
   background-color: #fff;
 }
 
-.grid-title {
-  grid-area: title;
-  padding: 4% 15%;
-}
-
-.grid-about {
-  grid-area: about;
-  padding: 4% 15%;
+.flex-box {
+  padding: 4% 8%;
   line-height: 2;
+  flex: 1 0;
 }
 
-.grid-container {
-  display: grid;
-  grid-gap: 0;
-  grid-template-columns: 1fr 2fr;
-  grid-template-areas: "title about";
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-title {
+  min-width: fit-content;
+}
+
+.flex-details {
+  min-width: 35vw;
 }
 
 .see-more {
@@ -110,4 +118,14 @@ main {
 
 .project-example-img {
   width: 49%;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-list{
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
 }
