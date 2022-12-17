@@ -8,3 +8,27 @@
 .intro-content {
     padding: 1px;
 }
+
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, 230px);
+    justify-content: space-between;
+}
+
+.project-card {
+    height: 300px;
+    border-radius: 5%;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 5%;
+}
+
+.project-card:hover {
+    background-color: #5e45b0;
+    color: white;
+}
+
+.project-card-preview {
+    max-width: 210px;
+}
