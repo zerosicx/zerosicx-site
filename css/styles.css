@@ -134,3 +134,8 @@ main {
     display: inline;
   }
 }
+
+.accordion {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.2rem;
+}
