@@ -39,7 +39,7 @@ h1, h2, h3 {
   color:#a377a7
 }
 
-.hamburger {
+#hamburger {
   display: none;
   padding: 3%;
   font-size: 1.4rem;
@@ -130,7 +130,7 @@ main {
     display: none;
   }
 
-  .hamburger {
+  #hamburger {
     display: inline;
   }
 }
@@ -138,4 +138,9 @@ main {
 .accordion {
   font-family: Montserrat, sans-serif;
   font-size: 1.2rem;
+}
+
+.nav-hamburger {
+  display: flex;
+  flex-direction: column;
 }

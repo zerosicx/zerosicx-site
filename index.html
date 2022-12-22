@@ -32,10 +32,10 @@
           <li class="nav-item"><a href="pages/course.html">Course Status</a></li>
           <li class="nav-item"><a href="#">Contact</a></li>
         </ul>
-        <i class="fa-solid fa-bars hamburger"></i>
+        <i class="fa-solid fa-bars" id="hamburger"></i>
       </nav>
 
-      <div class="intro-content">
+      <div class="intro-content" id="intro-content">
 
         <h1>I'm Hannah</h1>
 
@@ -50,54 +50,67 @@
 
     </header>
 
+    <div id="hamburger-menu">
+      <ul class="nav-hamburger">
+        <li class="nav-item"><a href="#">About Me</a></li>
+        <li class="nav-item"><a href="pages/projects.html">Projects</a></li>
+        <li class="nav-item"><a href="pages/course.html">Course Status</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    
     <!-- Main content section. -->
     <!-- Use grids to show these side-by-side -->
-    <main class="flex-container main-about">
+    <main id="main-content">
+      <main class="flex-container main-about">
 
-      <div class="flex-box flex-title">
-        <h1>About Me</h1>
-        <a class="see-more" href="files/CV2022.pdf" download="CV2022.pdf">See my CV...</a>
+        <div class="flex-box flex-title">
+          <h1>About Me</h1>
+          <a class="see-more" href="files/CV2022.pdf" download="CV2022.pdf">See my CV...</a>
 
-      </div>
+        </div>
 
-      <div class="flex-box flex-details">
-        <ul>
-          <li>Second year of Software Engineering at Unviersity of Waikato</li>
-          <li>Strong team and project management skills. Proficient in academic writing.</li>
-          <li>Experience in <span class="languages">enterprise Full Stack Web Development and Machine Learning</span></li>
-          <li>Freelance Illustrator</li>
-        </ul>
+        <div class="flex-box flex-details">
+          <ul>
+            <li>Second year of Software Engineering at Unviersity of Waikato</li>
+            <li>Strong team and project management skills. Proficient in academic writing.</li>
+            <li>Experience in <span class="languages">enterprise Full Stack Web Development and Machine Learning</span></li>
+            <li>Freelance Illustrator</li>
+          </ul>
 
-      </div>
+        </div>
 
-    </main>
+      </main>
 
-    <main class="flex-container main-projects">
-      <div class="flex-box flex-title">
-        <h1>Projects</h1>
-        <a class="see-more" href="pages/projects.html">See more projects...</a>
+      <main class="flex-container main-projects">
+        <div class="flex-box flex-title">
+          <h1>Projects</h1>
+          <a class="see-more" href="pages/projects.html">See more projects...</a>
 
-      </div>
+        </div>
 
-      <div class="flex-box flex-details">
-        <p><u>Most Recent</u></p>
-        <p>Tasked to make a responsive android application that implements the Google Maps API, Open Weather API and Windy Cams API, a user can see the weather at any selected location, and the five nearest road cameras with visual previews. Complete with auto-fill suggestions using Google Places.</p>
-        <p>Completed as a peer programming exercise, my partner and I used effective project management techniques and source control using GitLab.</p>
-        <img class="project-example-img" src="images/maps-1.png" alt="">
-        <img class="project-example-img" src="images/maps-2.png" alt="">
-        <!-- <a class="see-more" href="#">See more about this project...</a> -->
-      </div>
-    </main>
+        <div class="flex-box flex-details">
+          <p><u>Most Recent</u></p>
+          <p>Tasked to make a responsive android application that implements the Google Maps API, Open Weather API and Windy Cams API, a user can see the weather at any selected location, and the five nearest road cameras with visual previews. Complete with auto-fill suggestions using Google Places.</p>
+          <p>Completed as a peer programming exercise, my partner and I used effective project management techniques and source control using GitLab.</p>
+          <img class="project-example-img" src="images/maps-1.png" alt="">
+          <img class="project-example-img" src="images/maps-2.png" alt="">
+          <!-- <a class="see-more" href="#">See more about this project...</a> -->
+        </div>
+      </main>
 
-    <main class="flex-container main-projects">
-      <div class="flex-box flex-title">
-        <h2>This website is still in development. Please feel free to provide me advice and feedback by contacting my email: hcsofteng@gmail.com</h2>
+      <main class="flex-container main-projects">
+        <div class="flex-box flex-title">
+          <h2>This website is still in development. Please feel free to provide me advice and feedback by contacting my email: hcsofteng@gmail.com</h2>
+      </main>
     </main>
 
     <!-- Footer section -->
     <footer>
       <!-- Make a sticky footer with a button that scrolls to the top upon click -->
     </footer>
+
+    <script src="javascript/script.js"></script>
 
   </body>
 </html>

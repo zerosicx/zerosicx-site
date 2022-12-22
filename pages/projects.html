@@ -36,10 +36,10 @@
                 <li class="nav-item"><a href="course.html">Course Status</a></li>
                 <li class="nav-item"><a href="#">Contact</a></li>
             </ul>
-            <i class="fa-solid fa-bars hamburger"></i>
+            <i class="fa-solid fa-bars" id="hamburger"></i>
         </nav>
 
-        <div class="intro-content">
+        <div class="intro-content" id="intro-content">
 
             <h1>Projects </h1>
 
@@ -47,9 +47,18 @@
 
     </header>
 
+    <div id="hamburger-menu">
+        <ul class="nav-hamburger">
+            <li class="nav-item"><a href="../index.html">About Me</a></li>
+            <li class="nav-item"><a href="../pages/projects.html">Projects</a></li>
+            <li class="nav-item"><a href="../pages/course.html">Course Status</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
     <!-- Main content section. -->
     <!-- Use grids to show these side-by-side -->
-    <main class="main-projects">
+    <main class="main-projects" id="main-content">
         <!-- Dummy Object -->
         <div class="grid-wrapper">
             <div class="project-card">
@@ -84,15 +93,18 @@
             </div>
             <div class="project-card">
                 <h2>Circuit Simulator</h2>
-                <p>C#, Visual Studio Assignment. Achieved 100%.</p>
-                <!-- <img class="project-card-preview" src="" alt="example image"> -->
-                <p>Image not yet available.</p>
+                <p>C#, Visual Studio Assignment. Built a circuit simulator with full gate functionality including copying. Achieved 100%.</p>
+                <img class="project-card-preview" src="../images/circuits-prev.png" alt="example image">
             </div>
             <div class="project-card">
                 <h2>Project Manager</h2>
                 <p>Using C# and MySQL, I built a project manager with login functionality for programmers and managers.</p>
-                <!-- <img class="project-card-preview" src="" alt="example image"> -->
                 <img class="project-card-preview" src="../images/data-prev.png" alt="example image">
+            </div>
+            <div class="project-card">
+                <h2>Sagrada Game</h2>
+                <p>Designed the interface and logic for Sagrada Game based on <a href="https://floodgategames.com/Sagrada/Sagrada-Rules-Floodgate-Games-SA01.pdf">these rules.</a></p>
+                <img class="project-card-preview" src="../images/sagrada-prev.png" alt="example image">
             </div>
         </div>
 
@@ -102,6 +114,8 @@
     <footer>
         <!-- Make a sticky footer with a button that scrolls to the top upon click -->
     </footer>
+
+    <script src="../javascript/script.js"></script>
 
 </body>
 
