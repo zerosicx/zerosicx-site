@@ -133,6 +133,11 @@ main {
   #hamburger {
     display: inline;
   }
+
+  .intro-portrait {
+    width: 50%;
+    border-radius: 50%;
+  }
 }
 
 .accordion {
