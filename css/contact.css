@@ -1,0 +1,21 @@
+.main-contact {
+    font-size: 2rem;
+}
+
+.contact-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-detail {
+    padding: 20px;
+}
+
+.intro-content {
+    padding: 2%;
+}
+
+.intro-text {
+    position: relative;
+    top: -30%;
+}
