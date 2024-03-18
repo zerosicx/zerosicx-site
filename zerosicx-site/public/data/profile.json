@@ -1,0 +1,43 @@
+{
+    "firstName" : "Hannah",
+    "lastName" : "Carino",
+    "email": "hcsofteng@gmail.com",
+    "location": "New Zealand",
+    "tagLine": "I'm a high achieving, goal-oriented Software Engineering Student.",
+    "imageUrl": "",
+    "about": [
+        "Final year Software Engineering student, with a High Distinction avergage.",
+        "Strong team and project management skills; adept in academic writing and documnetation.",
+        "Experience in enterprise Full Stack Web Development with Atlassian and Vista Entertainment Solutions.",
+        "Passionate about making impactful changes and solving problems in a sustainable way."
+    ],
+    "projects": [
+        {
+            "projectName": "Media Library",
+            "company": "Vista Group",
+            "startDate": "2022-11-21",
+            "endDate": "2023-02-20",
+            "description": "Leading a multidisciplinary team of seven, we created a web media library to host and manage media assets for cinemas. As part of a proof of concept project, we built the Media Library with an Angular front end, C# dotNet back end implementing a REST API, and leveraged Cloudflare technologies to compare the current industry standard Cloud Service Providers; AWS Cloud and Azure Cloud."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Waikato",
+            "country": "New Zealand",
+            "startDate": "2021-03-01",
+            "endDate": "2024-11-01",
+            "description": [
+                "8.5 GPA with ~95% course average",
+                "Recipient of WGW Top Woman in Engineering Prize",
+                "Class representative of core Engineering courses"
+            ],
+            "unit": [
+                {
+                    "code": "COMPX301",
+                    "title": "Design and Analysis of Advanced Algorithms",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
